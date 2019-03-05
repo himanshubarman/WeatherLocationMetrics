@@ -10,5 +10,3 @@ urlpatterns = [
     path(r'tmax/<str:location>/',TmaxMatrice.as_view(), name = 'tmax-locationwise-list'),
     path('tmin/<str:location>/',TminMatrice.as_view(), name = 'tmin-locationwise-list')
 ]
-
-# urlpatterns = format_suffix_patterns(urlpatterns)
